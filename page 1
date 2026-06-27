@@ -1,0 +1,157 @@
+In the presence of either a metric or symplectic form on a vector space $W$, we inherit a pair of canonical vector-space isomorphisms that are not canonically determined in the absence of this geometric structure:
+
+$$
+W \longrightarrow W^{*} \quad W^{*} \longrightarrow W
+$$
+
+leading to two exact sequences:
+
+$$
+0 \leftrightarrows T \leftrightarrows T^{*} \leftrightarrows 0
+$$
+
+which, while rather trivial, suggest generalization in our case.
+For the Einsteinian Observerse and its Tangent and Co-Tangent bundles $T Y, T^{*} Y$ we likewise have natural and non-trivial maps:
+
+$$
+T(Y) \longrightarrow T^{*}(Y) \quad T^{*}(Y) \longrightarrow T(Y)
+$$
+
+However, neither of these maps is an isomorphism as they have non-trivial kernels. These can be fit into a repeating long exact sequences
+
+$$
+\ldots \quad \longrightarrow \quad T \quad \longrightarrow \quad T^{*} \quad \longrightarrow \quad T \quad \longrightarrow \quad T^{*} \quad \longrightarrow \quad \ldots
+$$
+
+evidencing the relationship of a metric Chimeric bundle $C(Y)=C^{*}(Y)$ to the partial isomorphisms between $T(Y)$ and $T^{*}(Y)$ as we shall now explain.
+
+There exists a commutative diagram
+
+```
+...   →   0   →   0   →   0   →   0   →   ...
+    ↓     ↓     ↓     ↓     ↓
+...   →   V   →   V*  →   V   →   V*  →   ...
+    ↓     ↓     ↓     ↓     ↓
+...   →   T   →   T*  →   T   →   T*  →   ...
+    ↓     ↓     ↓     ↓     ↓
+...   →   H   →   H*  →   H   →   H*  →   ...
+    ↓     ↓     ↓     ↓     ↓
+...   →   0   →   0   →   0   →   0   →   ...
+```
+
+where all vertical sequences are short exact and the repeating central horizontal sequence is long exact with all other maps not covered in the preceding are metric isomorphisms.
+
+The bundle $H^{*}$ is defined to be
+
+$$
+H^{*}=\pi^{*}\left(T^{*}(X)\right) \quad H^{*} \hookrightarrow T^{*}(Y)
+$$
+
+which at the point $g \in Y$ carries an induced metric $g$ via $H_{\pi^{*}\left(\pi_{*}(g)\right)}$ as the pull back of the push-forward metric. We will refer to the dual bundle $\left(H^{*}\right)^{*}$ simply as $H$.
+
+Conversely, as a fiber bundle, the total space $Y$ carries a vertical sub-bundle $V \subset T(Y)$ as the subspace of vectors pointing along the fibers of $Y$ over $X$. Here again, the structure of $Y$ as a space of metrics becomes germane.
+
+At a point $y \in Y$, lying in the fiber $\pi^{-1}(\pi(y))$ let two symmetric two tensors $A, B \in T_{y}^{V}(X)$ represent a random choice of two elements in the vertical tangent space along two different smooth paths of non-degenerate metrics $g_{A}(t), g_{B}(t)$ where at time $t=0$ we have $g_{A}(0)=g_{B}(0)=y$ with $\dot{g}_{A}(t)=A$ and $\dot{g}_{B}(t)=B$. Then, by the symmetry of the metrics, the Frobenius inner product is defined by the double contraction against the metric represented by the point $y$ which, in an orthonormal basis would look like:
+
+$$
+<A, B>_{y}=\operatorname{Tr}_{y}\left(A^{T} \cdot B\right)=\operatorname{Tr}_{y}(A \cdot B)
+$$
+
+were the tensors $A, B$ represented as matrices in that basis. Here the space of metrics breaks into a Trace and Traceless component. The Traceless component has signature $\left(i \cdot n-i^{2}, \frac{n^{2}+2 i^{2}-2 i \cdot n+n-2}{2}\right)$ with a freedom to assign either a $(0,1)$ or $(1,0)$ signature to the trace component. In this exposition we choose the later so as to assume our Frobenius metric can be taken to be of signature
+
+$$
+\left(i \cdot n-i^{2}+1, \frac{n^{2}+2 i^{2}-2 i \cdot n+n-2}{2}\right)=(4,6) \quad \text { for } i=1, n=4
+$$
+
+for the four dimensional $(1,3)$ metric of greatest physical interest with one temporal and three spatial dimensions. Naturally, this would work equally well for a cosmetic shift to the $(3,1)$ sector, but we are treating the 3 -spatial and 1 temporal dimension as anthropically determined in either case and would imagine that the other sectors carry physical reality disconnected from our sector.
+
+${ }^{2} \mathrm{NB}$ : This choice is one of the few non-forced choices allowed in the strong form of GU.
+
+# 3.2 The Chimeric Bundle
+
+We now define two metric bundles which, with the above assignments, are canonically isomorphic:
+
+$$
+C(Y)=C=V \oplus H^{*} \quad C^{*}(Y)=C^{*}=V^{*} \oplus H
+$$
+
+where each of these Chimeric bundles may be thought of as 'semi-canonically' equivalent to the Tangent and Co-Tangent bundles according to:
+    C*
+    ↑   ↘
+  T   →   T*
+    ↑   ↘
+    C
+
+
+as one way of formally linking two short exact sequences.
+These bundles $C=C(Y)$ and $C^{*}$ are distinguished by the fact that they are (semi-canonically) isomorphic to the tangent bundle in the case of $C$ and
+
+
+the co-tangent bundle in the case of $C^{*}$ and possess natural metrics. Because the fibers at a point $g \in Y$ impart metrics to the vertical $V_{g}$ and horizontal sub-bundles $H_{g}^{*}$, taking those sub-spaces to be orthogonal to each other allows for two different choices of metric to be inherited by their direct sum according to choices of sign.
+
+# 3.3 Topological and Metric Spinors
+
+What then is the purpose of defining bundles that are isomorphic to $T$ and $T^{*}$ but with only part of that isomorphism being canonical?
+
+The answer lies in the paradox of Spinors. While the Dirac operator may well carry topological information that is not metric, it is usually impossible to define a natural finite dimensional bundle of spinors on $X^{n}$ in the absence of a metric, even when one can lift the General Linear group to its connected twofold double cover $\widehat{\mathrm{GL}}(N, \mathbb{R})$, due to the absence of finite dimensional fractional spin representations.
+
+By passing to $Y^{d}$ however, we can do somewhat better by virtue of the fact that spinor representations carry an exponential property. That is, the spinor functor converts direct sums of vector spaces as input into tensor products of spinor representations as output:
+
+$$
+\mathfrak{F}\left(W_{a} \oplus W_{b}\right) \cong \mathfrak{F}\left(W_{a}\right) \otimes \mathfrak{F}\left(W_{b}\right)
+$$
+
+At the bundle level, we apply this to the metric Chimeric Bundle at a point $g \in Y$ to obtain:
+
+$$
+\mathscr{G}_{g}(C) \cong \mathscr{G}_{g}\left(V \oplus H^{*}\right) \cong \mathscr{G}_{\text {Frobenius }}(V) \otimes \mathscr{G}_{g}\left(H_{\pi^{*}\left(\pi_{*}(g)\right)}^{*}\right)
+$$
+
+which gives spinors defined for the metric endowed $C=C^{*}$ without making a choice of metric on $Y$.
+
+This is important for several reasons. In the first place, we have defined a Spin Bundle for the chimeric bundle $C(Y)$ which is semi-canonically isomorphic to metric bundles of spinors on $T Y$. Thus at the cost of replacing $X$ with the total space of a natural bundle over it, we have come rather close to defining spinors without a choice of metric via maps:
+
+
+0 → C → TY ⊕ T*Y → C* → 0
+
+
+More importantly, we must have in the back of our minds that we are ultimately going to have to harmonize gravitation and the metric with fractional spin Fermi fields which depend on that tensor for their existence. This construction allows us to work with one single bundle of spinors even when there is no choice of metric. When a metric is chosen below on $X$ compatibly with $V$ and $H$, the
+
+Chimeric bundle and Tangent are given a natural isomorphism via the Levi-Civita connection
+
+$$
+\underbrace{\mathcal{S}(V) \otimes \mathcal{S}(H)}_{\text {Topological Spinors }} \longrightarrow \underbrace{\mathcal{S}(T)=\mathcal{S}\left(T^{*}\right)}_{\text {Metric Spinors }}
+$$
+
+telling us how the Horizontal bundle $H$ maps into $T Y$. This in turn clears the way to allow us to later consider quantum Fermi fields which usually carry metric bundle dependence between invocations of metric tensors.
+
+# 3.4 Reversing The Fundamental Theorem: The Zorro Construction
+
+According to the fundamental theorem of Riemannian Geometry, every Riemannian or (semi-Riemannian metric) induces a unique metric compatible torsion free Levi-Civita connection on its tangent bundle.
+
+As we have two spaces, $X, Y$, this is equally true both above and below in our construction of the Observerse:
+
+|  | Metrics | Connections |
+| :--: | :--: | :--: |
+| On $X$ | $\{\Eth} \longrightarrow$ | $\aleph_{\Eth}$ |
+| On $Y$ | $g \longrightarrow$ | $A_{g}$ |
+
+However, what is necessary to split the cyclic long exact sequence of maps between $T$ and $T^{*}$ is in fact a connection on the space $Y$ viewed as a bundle over $X$. By reversing the usual logic somewhat and linking these two maps, we get a train of transmission where a metric choice below on $X$ leads ultimately to the choice of a connection above over $Y$ :
+
+|  | Metrics | Connections |
+| :--: | :--: | :--: |
+| On $X$ | $\{\Eth} \longrightarrow$ | $\aleph_{\Eth}$ |
+| On $Y$ | $g_{\aleph} \longrightarrow$ | $A_{g}$ |
+
+The importance of this is that each observation of $Y$ via a choice of metric $\square$ on $X$ actually induces a metric and connection on $Y$ identifying the Topological spinors with the metric spinors. This allows us somewhat more confidence to explore the idea that metrics are not even necessarily present on $Y$ unless when observed where the act of observing under pull back $\square^{*}$. Further, if the problem with much of quantum gravity turns out to be the difficulty of quantizing metrics relative to other fields such as vector potentials, this exercise allows us to move to more conducive variables for those who harbor dreams of quantizing gravitation.
+
+
+It should be pointed out here that most possible metrics on $Y$ are never in play. The subset of metrics that we are considering are incredibly tightly constrained and are equivalent to the space of connections that can arrive on $X$ as Levi-Civita connections, as opposed to the space of all metrics over $Y$. Thus the issue of what upstairs gravity waves are possible doesn't arise as the space of relevant fields is downstairs on $X$.
+
+# 3.5 Chimeric Spinors and Heterogeneous Spin Bundles
+
+Now that we have abstractly defined spinor bundles on $Y$, it behooves us to understand what kind of spinors we may have coaxed into existence.
+
+We should begin by noting that the choice of $(1,3)$ metric signature (which can be mirrored by choice of a $(3,1)$ and thus is not meaningfully distinguished from it) is treated by us as anthropic data. If it were otherwise, there would likely be no life to evolve to observe these structures. This recognition forces a $(3,6)$ signature on the space of traceless symmetric two tensors which, when combined with the trace portion seen as either a $(0,1)$ or $(1,0)$ space, can become either a $(3,7)$ or the $(4,6)$ metric respectively. Here again, we make an anthropic choice and select the latter of the two for two reasons. In the first place, we believe that $(3,7)$ will not be compatible with the observed forces and symmetries of the Standard Model. Secondly, we want to leave ourselves room for complex techniques and view a real $(4,6)_{\mathbb{R}}$ structure as holding the door open for some models we have been playing with favoring reduction to $(2,3)_{\mathbb{C}}$.
+
+Lastly, we must combine these choices of fiber metrics in $Y$ with metrics pulled up from the base space of signature $(1,3)$. These combinations in turn could lead to $(4,10)$ or $(8,6)$ in the discarded former cases of $(7,3)$ or $(3,7)$, or $(5,9)$ or $(7,7)$ in the case of the latter $(4,6)$ or $(6,4)$. We do not know how to choose between these however as this is one of the few places in the model where choices are made that are not yet forced.
