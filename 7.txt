@@ -1,0 +1,100 @@
+
+The rule here is that
+
+$$
+\mathbb{R}(W)=\mathbb{R}(U \oplus V)=\left(\begin{array}{c}
+\mathbb{R}(U) \otimes \mathcal{S}(V) \\
+\oplus \\
+\mathcal{S}(U) \otimes \mathbb{R}(V) \\
+\oplus \\
+\mathcal{S}(U) \otimes \mathcal{S}(V)
+\end{array}\right)
+$$
+
+with an odd re-appearance of a final term which has purely spinorial with no $3 / 2$ spin Rarita-Schwinger component.
+
+To apply the above to our situation we recognize that $\zeta$ represents a spinor valued 1-form and $\nu$ a spinor on $Y$ with $U$ representing the Horizontal and $V$ the Vertical normal bundle $N_{2}$ to the metric as an embedding
+
+$$
+\mathfrak{I}: X \longrightarrow Y
+$$
+
+Even at zero-level before the introduction of higher Jets, the pull back of $\nu, \zeta$ and their host bundles is potentially of considerable interest.
+
+### 11.2 The Three Family Problem in GU and Imposter Generations.
+
+'Who ordered that?' - Isidore Rabi on the Muon
+
+We have had to restrict ourselves to a world without auxiliary internal quantum numbers as essentially everything has been generated endogenously from $X^{4}$. This leaves the question of why we appear to see a rich offering of repeating internal Fermionic quantum numbers.
+
+In fact we will make two likely to be controversial claims in this section that may appear to fly in the face of experimental observation. The first is that we do not believe that nature has simply repeated herself three times albeit at different mass scales. While we do believe that a second copy of Fermionic matter matches this description, we believe that a third family is merely effectively identical to the other two and, presumably, only at low energy.
+
+Secondly, while we are often told that the discovery of parity violation in beta decay found in the 1950s by Chien-Shiung Wu following theories of Yang and Lee, proves that nature is intrinsically chiral, we will again hazard the guess that it is merely effectively chiral so that at a deeper level it remains intrinsically balanced between left and right. To see this more clearly we will decompose our Fermionic sector under the decompositions of $\mathfrak{I}^{*}\left(\mathcal{S}\left(T^{*} Y\right)\right)$ and $\mathfrak{I}^{*}\left(\mathbb{R}\left(T^{*} Y\right)\right)$ under
+
+$$
+\mathfrak{I}^{*}\left(T^{*} Y\right)=T^{*} X \oplus N_{2}
+$$
+
+To this, our rolled up Fermionic complex looks quite different under the above tangent space decomposition:
+
+
+
+
+
+
+
+
+
+\\missing particle table
+
+
+
+
+As far as understanding the picture of the force carrying gauge potentials, we are really looking to understand what parts of $\Omega^{1}(Y, \mathrm{ad})$ carries meaning for us already within the standard model. To that end we can see that at the level of vector spaces if not as algebras, the ad-bundle is equivalent to the exterior bundle on $Y$. Both the branching of the 1-forms $\Omega^{1}(Y)$ and the ad-bundle are straightforward under pull back of $\mathfrak{I}^{*}$ to $X$.
+
+$$
+\begin{aligned}
+& \mathfrak{I}^{*}(\operatorname{ad}(Y))=\Lambda^{*}\left(T X^{4} \oplus N_{2}^{10}\right)=\bigoplus_{i=0}^{4} \bigoplus_{j=0}^{10}\left(\Lambda^{i}\left(T X^{4}\right) \otimes \Lambda^{j}\left(N_{2}^{10}\right)\right) \\
+& =\Lambda^{*}\left(T X^{4}\right) \oplus \Lambda^{*}\left(N_{2}^{10}\right) \oplus\left(\bigoplus_{i=1}^{4} \bigoplus_{j=1}^{10}\left(\Lambda^{i}\left(T X^{4}\right) \otimes \Lambda^{j}\left(N_{2}^{10}\right)\right)\right)
+\end{aligned}
+$$
+
+so
+
+$$
+\begin{aligned}
+& \Lambda^{1}\left(T X^{4} \oplus N_{2}^{10}\right) \otimes \Lambda^{*}\left(T X^{4} \oplus N_{2}^{10}\right)=\left(\Lambda^{1}\left(T X^{4}\right) \oplus \Lambda^{1}\left(N_{2}^{10}\right)\right) \otimes\left(\bigoplus_{i=0}^{4} \bigoplus_{j=0}^{10}\left(\Lambda^{i}\left(T X^{4}\right) \otimes \Lambda^{j}\left(N_{2}^{10}\right)\right)\right) \\
+& \supset \underbrace{\Lambda^{1}\left(T X^{4}\right) \otimes\left(\Lambda^{2}\left(N_{2}^{10}\right) \otimes \Lambda^{0}\left(T X^{4}\right)\right)}_{\text {Spin(6,4) GUT Gauge Potentials }} \oplus \underbrace{\Lambda^{1}\left(T X^{4}\right) \otimes\left(\Lambda^{2}\left(T X^{4}\right) \otimes \Lambda^{0}\left(N_{2}^{10}\right)\right)}_{\text {Spin(1,3) GR Torsion Tensors }} \\
+& \oplus \Lambda^{1}\left(T X^{4}\right) \otimes\left(\Lambda^{1}\left(T X^{4}\right) \otimes \Lambda^{0}\left(N_{2}^{10}\right)\right) \oplus \Lambda^{1}\left(N_{2}^{10}\right) \otimes\left(\Lambda^{1}\left(N_{2}^{10}\right) \otimes \Lambda^{0}\left(T X^{4}\right)\right) \\
+& \text { Space-Time Cosmological Constant and Dirac Mass } \\
+& \text { Fiber Cosmological Constant and Dirac Mass }
+\end{aligned}
+$$
+
+# 12 Summary
+
+The approach of Geometric Unity as a candidate physical theory of our world is to work with a variety of different bundles in both finite and infinite dimensions which are all generated from a single space $X^{4}$. The structure of the relationships may be summarized here:
+
+![Summary Diagram](attachment:Summary_Diagram.png)
+
+**Finite Dimensions**
+
+**Infinite Dimensions**
+
+We recall that there is a theory of sections above the infinite dimensional constructions on the right hand side involved with superspaces and so-called 'induced representations', but at this point cannot remember even the standard theory and so have not entered into it here and may do so in further work if there is sufficient interest and ability to recall.
+
+# 12.1 Equations
+
+In Geometric Unity, we believe that the Einstein, Dirac, Yang-Mills and Klein-Gordon equations for the metric, Fermions, internal forces and Higgs sector respectively are not to be unified directly. Instead, the Einstein and Dirac equations are to be replaced by the reduced Euler-Lagrange equations
+
+$$
+\Pi\left(d \mathcal{I}_{\omega}^{1}\right)=\left(\delta_{\omega}\right)^{2}=\Upsilon_{\omega}=0
+$$
+
+for a first-order Lagrangian after removal of redundancy through projections $\Pi$. Then the Yang-Mills-Maxwell equations and Klein-Gordon equation for the Higgs follow from a second related Lagrangian
+
+$$
+\Pi\left(d \mathcal{I}_{\omega}^{2}\right)=\mathcal{D}_{\omega}^{*} \Upsilon_{\omega}=0
+$$
+
+whose Euler-Lagrange equations are automatically satisfied if the 1st order theory is satisfied.

@@ -1,0 +1,153 @@
+---
+
+
+will always be Semi-simple or at least reductive. Thus, we view the semi-simple nature of Pati-Salam paradoxically as more of a blessing than curse given that we are trying to generate quantum numbers from the anthropic choice of $\operatorname{Spin}(1,3)$ which ensures the existence of hyperbolic PDE dynamics unspoiled by ellipticity.
+
+To this end we have:
+
+$$
+\left(h_{\mathrm{SU}(3)_{\mathrm{QCD}}}, g_{W I}, \alpha_{W H}\right) \longrightarrow
+$$
+
+Pati-Salam Grand Unified Group
+
+
+Pati-Salam Grand Unified Group
+( α · h     0               )     (     α^3       0     )
+(   0    α^{-3}  ) SU(4)     g    SU(2)_L     (   0    α^{-3}  ) SU(2)_R
+      Spin(6)                                       Spin(4)
+
+
+where we have made use of the low dimensional isomorphism $\operatorname{SU}(4)=\operatorname{Spin}(6)$ which can be best understood through the study of sphere transitive Weyl spin representations via Clifford Algebras.
+
+As for the $\mathrm{SU}(2) \times \mathrm{SU}(2)$ factors, we see that it is most advantageous to view this via low dimensional isomorphism with $\operatorname{Spin}(4)$ so as to obtain the following diagram:
+
+
+                   Spin(10, C)
+                     ↑   ↑
+             Spin(6, 4)    Spin(10)
+                     ↑   ↑
+             SU(3, 2)    Georgi-Glashow
+                     ↑   ↑
+  SU(3) × SU(2) × U(1)    SU(5)
+
+
+indicating that the appearance of a phantom 10-dimensional representation is common to both the Georgi-Glashow and Pati-Salam theories and strongly suggests looking for a fundamental explanation. One disadvantage on finding oneself on the Pati-Salam branch of the above tree, is that it suggests non-compact groups bigger than itself which are difficult to accommodate in unitary Bosonic theories with bounded energy. An advantage however is that it does not lead immediately to proton decay like the original $\mathrm{SU}(5)$ model of Georgi-Glashow. Further, by privileging both a compact structure group within $\operatorname{Spin}(6,4)$ and a complex structure on the phantom 10-dimensional representation, the Standard Model group appears to be very close to being at the intersection of those requirements.
+
+# 5 Unified Field Content: The Inhomogeneous Gauge Group and Fermionic Extension
+
+Up until now we have been dealing with finite-dimensional constructions that superficially appear to be geometric (e.g. spinorial), but are actually mostly topological in nature. In this section we focus on the field content of GU which brings us to infinite dimensional algebraic constructions.
+
+### 5.1 Field Content
+
+In what follows, we endeavor to list the field content of Geometric Unity. The major nuance here is that the fields live on separate spaces which is kept track of by having only two fields on $X$ with Hebrew orthography. All other fields live on $Y$ and carry Greek orthography.
+
+### 5.1.1 Field Content Native to X
+
+In everything that follows, we will endeavor to separate out all field content native to $X$ by having it appear with Hebrew Letters. There is a single primary field $\mathcal{J}$ native to $X$ which is a section of the metric bundle $Y(X)$ as well as a derived field $\aleph=\aleph_{2}$ representing the Levi-Civita connection across all bundles on which it is induced from the metric $\mathcal{J}$.
+
+### 5.1.2 Field Content Native to Y
+
+There is a single unified field $\omega$ native to $Y$. Here our interpretation of Unified field is interpreted to mean unified in an algebraic sense of indecomposable.
+
+With that said, we should say at the outset that $\omega$ is comprised of interlocking sub-sectors:
+
+$$
+\omega=(\beta, \chi)=(\overbrace{\left(\begin{array}{c}
+\text { Naive) }{ }^{6} \text { spins on } Y \\
+\hdashline
+\end{array}\right.}^{\text {(Naive) }} \cdot(\underbrace{\frac{1}{\nu} \cdot \frac{\frac{1}{2} \cdot \frac{3}{2}}{\zeta}}_{\text {Bosons } \beta}) \cdot(\underbrace{\frac{1}{\nu} \cdot \frac{1}{\zeta}}_{\text {Fermions } \chi})
+$$
+
+Of the four sub-component fields, only one, $\varepsilon$ is non-linear at the level of topological spaces. Letting $\bar{\varepsilon}$ denote its linearization, the four components fit neatly within the following simple table of tensor products:
+
+(Linearized) Field Content on Y:
+
+| $\otimes$ | ad | $\mathscr{S}$ |
+| :--: | :--: | :--: |
+| $\Omega_{Y}^{0}$ | $\bar{\varepsilon}$ | $\nu$ |
+| $\Omega_{Y}^{1}$ | $\infty$ | $\zeta$ |
+
+for their understanding of relativistic mechanics as well as both classical and quantum field theories. While space-time has obviously not been considered flat since Einstein and Grossman first introduced General Relativity in 1913, we are rather more sympathetic to the emphasis on affine space than our frequent irritation with excuse making for Minkowski space techniques might suggest.
+
+Simply put, we see affine physics as being central to our understanding of the world and requiring no excuse making, but believe that the culture has chosen the wrong affine space and dimensionality for its emphasis given the presence of gravity.
+
+The simple principle we follow here is that we should implement on the affine space of connections what we are otherwise tempted to do on flattened space-time. To this end we set notation.
+
+# 5.2 Infinite Dimensional Function Spaces: $\mathcal{A}, \mathcal{H}, \mathcal{N}$.
+
+The so-called Gauge Group of automorphisms of $P_{H}$ is defined to be:
+
+$$
+\mathcal{H}=\Gamma^{\infty}\left(P_{H} \times_{\mathrm{Ad}} H\right)
+$$
+
+where the space of connections for $P_{H}$
+
+$$
+\mathcal{A}=\operatorname{Conn}\left(P_{H}\right)
+$$
+
+is an affine space modeled on the right $\mathcal{H}$-module
+
+$$
+\mathcal{N}=\Omega^{1}\left(Y, \operatorname{ad}\left(P_{H}\right)\right)
+$$
+
+which carries a right action of the group
+
+$$
+\mathcal{A} \times \mathcal{H} \longrightarrow \mathcal{A}
+$$
+
+so that the affine difference map
+
+$$
+\delta: \mathcal{A} \times \mathcal{A} \longrightarrow \mathcal{N} \quad \delta(A, B)=A-B \in \mathcal{N}
+$$
+
+is an $\mathcal{H}$-equivariant map of right $\mathcal{H}$-spaces.
+
+### 5.3 Inhomogeneous Gauge Group: $\mathcal{G}$
+
+The reliance on affine Minkowski Space together with its Lorentz and Poincare symmetry groups is somewhat curious in the presence of General Relativity. Yet given the success of analysis on affine space we are given to speculate that fundamental physics may in fact be reliant on an affine space as more than an approximation or pedagogical aid.
+
+The gauge group $\mathcal{H}$ can be augmented (in analogy to the Lorentz Group $\mathrm{SL}(2, \mathbb{C})$ to become a subgroup of its own natural inhomogeneous extension.
+
+**Definition 5.1** The Inhomogeneous Gauge Group $\mathcal{G}$ is defined (in analogy to the Poincare group) to be the semi-direct product
+
+$$
+\mathcal{G}=\mathcal{H} \ltimes \mathcal{N}
+$$
+
+of the gauge group $\mathcal{H}$ with the space of ad-valued one-forms $\mathcal{N}=\Omega^{1}\left(\operatorname{ad}\left(P_{H}\right)\right)$ viewed as a right $\mathcal{H}$-module, so that the explicit group multiplication rule:
+
+$$
+g_{1} \cdot g_{2}=\left(\varepsilon_{1}, \varpi_{1}\right) \cdot\left(\varepsilon_{2}, \varpi_{2}\right)=\left(\varepsilon_{1} \cdot \varepsilon_{2}, \operatorname{Aut}\left(\varepsilon_{2}^{-1}, \varpi_{1}\right)+\varpi_{2}\right)
+$$
+
+for all $\varepsilon_{i} \in \mathcal{H}$ and $\varpi_{j} \in \mathcal{N}$ defines the semi-direct product structure.
+
+# 5.4 Natural Actions of $\mathcal{G}$ on $\mathcal{A}$.
+
+Having defined a new group augmenting the usual gauge group, it is worth noting that the actions of $\mathcal{H}$ on the space of connections $\mathcal{A}$ extend naturally to the new group $\mathcal{G}$ incorporating the additional inhomogeneous affine translations $\mathcal{N}$.
+
+### 5.4.1 Right Action by $\mathcal{G}$ on $\mathcal{A}$
+
+This inhomogeneous gauge group $\mathcal{G}$ can be seen as acting naturally on the right on the space of gauge potentials or connections $\mathcal{A}$ via
+
+$$
+A \cdot g=A \cdot(\varepsilon, \varpi)=A \cdot \varepsilon+\varpi
+$$
+
+extending the usual right action $A \rightsquigarrow A \cdot \varepsilon$ of an element of the gauge group $\varepsilon \in \mathcal{H}$ on an arbitrary connection $A \in \mathcal{A}$.
+
+### 5.4.2 Left Action by $\mathcal{G}$ on $\mathcal{A}$
+
+We also have a left action of $\mathcal{G}$ on $\mathcal{A}$ via
+
+$$
+g \cdot A=(\varepsilon, \varpi) \cdot A=(A+\varpi) \cdot \varepsilon^{-1}
+$$
+
+extending the left action $A \rightsquigarrow A \cdot \varepsilon^{-1}$ gotten from the usual right action of $\mathcal{H}$ applied to the inverse element $\varepsilon^{-1} \in \mathcal{H}$.

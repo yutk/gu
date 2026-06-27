@@ -1,0 +1,105 @@
+### 12.2 Space-time is not Fundamental and is to be Recovered from Observerse.
+
+
+
+
+There is something very special about the arrow of time mathematically. Only in dimension $n=1$ is $\mathbb{R}^{n}$ always well ordered. For every dimension $n>1$ there is no such concept without additional structure chosen (e.g. indifference curves and surfaces foliating the space of baskets in consumer choice theory). In our case we have moved to a world $X^{4}$ in which we believe all signatures are in some sense 'physically' real, with $X^{1,3}$ and $X^{3,1}$ being the only two to be provably anthropic, and the others being disconnected and unreachable by the condition of non-degeneracy.
+
+Yet in Geometric Unity, hovering above the world we see, there is always a second structure $Y^{14}$ looming with multiple spatial and temporal dimensions beyond our own. This capacious augmentation of non-metric $X^{4}$ as proto-spacetime allows us to wonder about the nature of time without a clear arrow being interpreted on a different space where the arrow is enforced by anthropics.
+
+However, we have found it quite challenging to think through the tension between two such worlds related by a bridge $\mathcal{J}$ which must measure in order to observe. Thus, the idea of measurement and observation are forced to be
+intrinsically tied and the concept of multi-dimensional arrowless time above is shielded from us living as if in Plato's cave below.
+
+# 12.3 Metric and Other Field Content are Native to Different Spaces.
+
+If the metric on $X^{4}$ and the observed Bosonic and Fermionic fields are native to the same space, then there is likely a need to put both of them in the same quantum system. However, if they originate intrinsically from different spaces, then the possibilities for harmonizing them without putting them into the exact same framework increase. It may fairly be pointed out that we have a metric in the derived space $Y$ that will have to be put in a common framework with the other fields, but even there we have a new twist. In this work we have not been considering unrestricted metrics on $Y$. In fact, almost all of the 'metric' information is built into the construction of $Y$, so that our subset of 'metrics' under consideration is really equivalent to the space of connections that split the long repeating exact sequence we have discussed between $T Y$ and $T^{*} Y$. This is not accidental but desired, as one of the goals of GU as connections, unlike metrics, have an adequate quantization theory as exhibited by QED, QCD and other theories. Hence the Zorro construction puts the only true metric field $\mathcal{J}$ on a separate space from the main quantized structures, but uses a connection to derive the highly restricted metrics on $Y$.
+
+### 12.4 The Modified Yang-Mills Equation Analog has a Dirac Square Root in a Mutant Einstein-Chern-Simons like Equation
+
+Without the quadratic potential term in the earlier example of a GU Bosonic Lagrangian, we are left with an expression of the form:
+
+![Equation Diagram](attachment:Equation_Diagram.png)
+
+If we were to attempt to compare it to other Lagrangians, it would be seen as having some aspects of both the Einstein-Hilbert and Chern-Simons Lagrangians. The Einsteinian character comes from the fact that it produces a linear expression in the curvature tensor making use of Riemannian Projection via $\circledast_{\omega}$. The Chern-Simons-Palatini like properties come from the fact that it is a Lagrangian that takes connections and ad-valued 1-forms as its natural parameter space.
+
+A comparison of the two expressions may be helpful to motivate some readers more familiar with one than the other:
+
+$$
+\begin{aligned}
+& \text { Principal } \quad \text { Gauge Trans } \\
+& \mathscr{G}_{C S}\left(\stackrel{\text { Trivial }}{\nabla^{A}}, \nabla^{A}, \quad \text { e }=\frac{1}{2}<A, \quad, \quad b l \quad(0,+\quad d, \quad A, \quad+\frac{2}{3} A \wedge A),>\right. \\
+& \mathscr{G}_{G U}\left(\stackrel{\nabla^{g}}{\nabla^{g}}, \nabla^{g}, \quad \varepsilon\right)=\left\langle T_{\omega^{\prime}}^{g}, \quad, \quad \stackrel{\text { T }}{\nabla_{\omega}} \quad\left(F_{B_{\omega}}^{*}\right.\right. \\
+& \left.\left.-\frac{1}{2}\right)_{B_{\omega}} \quad{ }^{\frac{2}{3}} T_{\omega} \quad+\frac{1}{3} T_{\omega} \wedge T_{\omega}\right)>\mathrm{V}_{g}^{14}
+\end{aligned}
+$$
+
+Where $\omega=(\varepsilon, \varpi) \in \mathcal{G}=\mathcal{H} \ltimes \mathcal{N}$ and the connection 1-forms
+
+$$
+A=\nabla^{A}-\nabla^{0} \quad \varpi=\nabla^{\varpi}-\nabla^{g}
+$$
+
+are measured relative to the trivial connection in the usual Chern-Simons theory, while Geometric Unity is inclined to use the spin Levi-Civita connection. The displaced torsion on the other hand
+
+$$
+T_{\omega}=\nabla^{\varpi}-\nabla^{g_{\mu}} \cdot \varepsilon=\varpi-\varepsilon^{-1}\left(d_{\nabla^{g}} \varepsilon\right)
+$$
+
+is measured relative to the gauge transformed Levi-Civita spin-connection $\nabla^{B_{\omega}}=$ $\nabla^{g} \cdot \varepsilon$. The operator $\mathscr{G}_{\omega}$ depends on the gauge transformation and, like the Einstein-Ricci projection, always kills off the Weyl curvature. Unlike the Einstein-Ricci projection map, however, it does so in a gauge covariant fashion.
+
+In the Chern-Simons case, the ad-valued 1-form $A$ is differentiated by the exterior derivative coupled to the trivial connection. Within Geometric Unity, it is differentiated by the exterior derivative coupled to $\nabla^{B_{\omega}}$, the Levi-Civita spin connection gauge transformed by $\varepsilon$.
+
+# 12.5 The Failure of Unification May Be Solved by Dirac Square Roots.
+
+If we accept the colloquial description of the Dirac equation as the square root of the Klein-Gordon equation, we see that solutions of a first order operator can guarantee solutions of a more general second order equation.
+
+This was oddly at the fore when the so-called 'Self-Dual' Yang-Mills equation burst onto the scene in that
+
+$$
+F_{A}^{ \pm}=0 \rightsquigarrow d_{A}^{*} F_{A}=0
+$$
+
+indicating that an equation linear in the curvature was powerful enough to guarantee the solution of a differential equation in the curvature via the Bianchi identity. This suggested to the author in the early 1980s in a seminar taught at the University of Pennsylvania that the Self-Dual equations were actually not so much meant to be Instanton equations, but were somehow more accurately the Einstein Field Equations in disguise as the square root of the Yang-Mills-Maxwell equations. Confusing this picture was the fact that the Einstein equations are usually viewed as equations for a metric rather than a connection, and the fact that the self-duality operator does not work for signatures other
+
+
+
+
+than $(4,0),(2,2)$ and $(0,4)$, all of which are non-physical. However, we have now attacked both of these issues in the construction of the Observerse so as to be able to address the viability of the idea that the Einstein and Yang-Mills curvature equations are so related.
+
+Thus, in a Dirac pair, the Yang-Mills and Klein-Gordon equations would be assigned to a second order strata and the Einstein and Dirac equations to a first order strata, with a relationship between the two understood as above.
+
+In our case of fundamental physics, there are so far four basic equations for each of the known fundamental fields,
+
+| Spin | Name | Field | Order |
+| :--: | :--: | :--: | :--: |
+| 0 | Klein-Gordon | Higgs Field $\phi$ | 2 |
+| $\frac{1}{2}$ | Dirac | Lepton and Hadron Fields $\psi$ | 1 |
+| 1 | Yang-Mills | Gauge Bosons $A$ | 2 |
+| 2 | Einstein | Gravitons $g$ | 2 |
+
+In some sense, this can be replaced in GU by
+
+| Naive Spin | Name | Field | Order |
+| :--: | :--: | :--: | :--: |
+| 0 | Klein-Gordon w Potential | Yang-Mills-Higgs Field $\phi$ | 2 |
+| $\frac{1}{2}, \frac{3}{2}$ | 'Dirac-Rarita-Schwinger' | Lepton and Hadron Fields $\nu, \zeta$ | 1 |
+| '1' | Yang-Mills | Gauge Bosons $\varpi$ | 2 |
+| '1' | 'Chern-Simons-Einstein' | $T_{\omega}$ | 1 |
+
+suggests a Dirac Square Root Unification. That is, the two first order equations live inside a square root structure of a different equation that contains the two second order equations. In an extreme abuse of notation we might write
+
+$$
+\text { Einstein-Dirac }=\sqrt{\text { Yang-Mills-Higgs-Klein-Gordon }}
+$$
+
+to be maximally abusive of notation-- purely in suggestion of the kind of Dirac Square Root unification we have in mind.
+
+# 12.6 Metric Data Transfer under Pull Back Operation is Engine of Observation.
+
+The metric tensor has traditionally been seen as an instrument of measurement of length and angle. This of course, is purely classical, arising as it does in both Special and General Relativity. The puzzle of Quantum measurement is, however, rather different, as it involves the application of Hermitian operators on Hilbert spaces to find eigenvectors as the possible post-measurement states, with their corresponding Eigenvalues as the experimental results.
+
+But in GU a different picture is possible. Consider $X$ as if it were an old fashioned Victrola and the Metric as analogous to an old fashioned stylus with $Y$ being a phonograph. What appears to be happening on the Victrola is largely a
+
+![Figure 6: Observation and The Observerse.](attachment:Figure_6.png)
+
+function of where the stylus alights on the phonograph. From the point of view of the listener, each track or location on the phonograph is a different world, while from the perspective of the record manufacturer the album is a single unified release. In this way, the world of states of $Y$ is merely being sampled and displayed as if it were the only thing happening on $X$.

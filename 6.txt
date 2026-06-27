@@ -1,0 +1,149 @@
+
+# 9.3 The Fermionic Sector
+
+In the case of the Fermionic content we can at the classical level take fields $\bar{\nu}, \bar{\zeta}, \nu, \zeta$ on $Y$ to be four distinct fields when ultimately we will wish to integrate out the Dirac like operator to take a Berezinian 'integral' in the quantum theory.
+
+For $\nu, \bar{\nu} \in \Omega^{0}(Y, \mathfrak{F})$ and $\zeta, \bar{\zeta} \in \Omega^{1}(Y, \mathfrak{F})$ we can begin with operators like:
+
+$$
+\not D_{\omega}^{F}\binom{\zeta}{\nu}_{\rho\left(\varepsilon^{-1}\right)}=\not D_{\omega} \chi_{\varepsilon^{-1}}=0
+$$
+
+where $\chi$ contains three generations of observed Fermions as well as LookingGlass matter, dark Spinorial Matter, Rarita-Schwinger matter and more while $\mathcal{D}$ subsumes the Dirac Operators, and the various subfields of $\omega$ accommodate the functionings of the CKM matrix, the Higgs-Like soft mass fields, the Yukawa couplings, Gauge Potentials and the like.
+
+Let us compile the Bosonic and Fermionic variations of the Spinorial Lagrangian terms in a single term:
+
+$$
+\Upsilon^{F}=*\left(\begin{array}{c}
+d_{A_{\omega}} \nu+* \circ d_{A_{\omega}} \zeta \\
+\oplus \\
+d_{A_{\omega}}^{*} \zeta \\
+\oplus \\
+\bar{\nu} \zeta+\bar{\zeta} \nu+\circ \bar{\zeta} \zeta
+\end{array}\right)
+$$
+
+as a kind of 1-form on some SuperSpace-like structure over $\mathcal{A}$ :
+
+$$
+\Upsilon_{\omega}^{F} \in\left(\begin{array}{c}
+\Omega^{d-1}(Y, \mathfrak{F}) \\
+\oplus \\
+\Omega^{d}(Y, \mathfrak{F}) \\
+\oplus \\
+\Omega^{d-1}(Y, \text { ad })
+\end{array}\right)
+$$
+
+which can be combined with the variation of either a first or second order purely Bosonic Lagrangian so as to form:
+
+$$
+\Upsilon_{\omega}=\Upsilon_{\omega}^{B}+\Upsilon_{\omega}^{F}=0 \quad \text { or } \quad \mathcal{D} \omega^{*} \Upsilon_{\omega}^{B}=\Upsilon_{\omega}^{F}
+$$
+
+At this point, we wish to take this mixed spinorial-tensorial $\Upsilon_{\omega}$ and ask whether we are attempting to penalize this expression in our extremization because it is
+
+actually the obstruction term for a cohomology theory. That is, we choose to view 'wedging' with $\Upsilon_{\omega}$ as the application of a zeroth order operator and ask if it possesses a non-trivial square root the in form of a first order differential operator $\delta^{\omega}$ so that:
+
+$$
+\Upsilon_{\omega}=0 \text { and } \sqrt{\Upsilon_{\omega}}=\delta^{\omega} \quad \leadsto \quad\left(\delta^{\omega}\right)^{2}=0 \quad \leadsto \quad \text { Cohomology }
+$$
+
+to get a Lagrangian Cohomology theory of at least two steps:
+
+$$
+\Upsilon_{\omega}=\left(\delta^{\omega}\right)^{2}=\delta_{2}^{\omega} \circ \delta_{1}^{\omega}=0
+$$
+
+of a geometrically meaningful cohomology complex.
+
+# 10 Deformation Complex
+
+The expected way to have our field equations arise naturally as the obstruction to a cohomology theory, is to first ask about the moduli space of solutions to the equations. That is, if $\omega^{*}$ represents a solution to the equations of motion with $\Upsilon_{\omega^{*}}=0$, in what are essentially different directions, may we perturb $\omega^{*}$ to obtain new solutions? To that end we begin first with the purely Bosonic fields on $Y$ and linearize our Tedhe action of the gauge group $\mathcal{H}$ on the group $\mathcal{G}=\mathcal{H} \ltimes \mathcal{N}$ via the $\tau_{0}$ homomorphism by linearizing both the groups and the exponential map of the action:
+
+In a certain sense, one can view the usual (twisted) DeRahm complex as the square root of the of the curvature as $d_{A} \circ d_{A} \phi=\left[F_{A} \wedge \phi\right]$. The same is true for the $\Upsilon$-Spinor-Tensor so we may ask if there is a complex with a co-chain operator such that:
+
+$$
+\sqrt{\Upsilon}_{\omega}=\delta^{\omega}
+$$
+
+where the individual operators are configured so that:
+
+$$
+\delta_{1}^{\omega}: \Omega^{0}(\mathrm{ad}) \longrightarrow \begin{array}{ccc}
+\Omega^{1}(\mathrm{ad}) & & \Omega^{1}(\mathrm{ad}) \\
+\oplus & \text { (ad) } & \text { (ad) } \\
+\Omega^{0}(\mathrm{ad}) & & \Omega^{0}(\mathrm{ad})
+\end{array} \longrightarrow \Omega^{d-1}(\mathrm{ad})
+$$
+
+and in fact this will give our assemblage the structure of a (Bosonic) deformation complex.
+
+
+To expand the concept from purely integral spin fields to include those of fractional spin, we are led to linearize equations of the form:
+
+$$
+\begin{gathered}
+\chi=\binom{\zeta}{\nu} \\
+\delta_{2}^{\omega} \circ \delta_{1}^{\omega}=\Upsilon_{\omega}=\binom{\underline{\mathcal{P}}_{\omega} \chi}{\circledast_{\omega} F_{A_{\omega}}+* k T_{\omega}+\sigma\left(\circledast_{\omega}, \Psi, \bar{\Psi}\right)}=0
+\end{gathered}
+$$
+
+The first step then for us is to examine what we mean by 'essentially different directions' of perturbation as regards the symmetry built into the problem. As we have endeavored to keep our metric theory gauge theoretic, let us first try to remove the uninteresting redundancy that is merely due to the gauge symmetry of the $\mathcal{H}$ action.
+
+The effect of an infinitesimal gauge transformation $\gamma \in T_{\varepsilon} \mathcal{H}$ on a point $g=(\varepsilon, \varpi) \in \mathcal{G}=P_{\mathcal{H}}$ is given by:
+
+$$
+\begin{aligned}
+& \frac{d}{d s} g \cdot \tau_{A_{0}}(\exp (s \gamma))=\frac{d}{d s}(\varepsilon, \varpi) \cdot \tau_{A_{0}}(\exp (s \gamma)) \\
+= & \frac{d}{d s}\left((\varepsilon, \varpi) \cdot(\exp (s \gamma), \exp (s \gamma)^{-1} d_{A_{0}} \exp (s \gamma))\right) \\
+& =\left(D L_{\varepsilon} \gamma, d_{A_{0}} \gamma-[\gamma, \varpi]\right)=\left(D L_{\varepsilon} \gamma, d_{A_{\varpi}} \gamma\right)
+\end{aligned}
+$$
+
+so that we have:
+
+$$
+\delta_{1}^{\omega}=\binom{\delta_{1, a}^{\omega}}{\bar{\delta}_{1, b}^{\omega}}=\binom{d_{A_{\omega}}}{D L_{\varepsilon_{\omega}}}
+$$
+
+As for the second operator, we can search for it in the linearization of the equations of motion. To this end we posit:
+
+$$
+\begin{gathered}
+\delta_{2}^{\omega}=\left(\begin{array}{ccc}
+\delta_{2, a}^{\omega} & \oplus & \delta_{2, b}^{\omega} \\
+\end{array}\right) \\
+\delta_{2, a}^{\omega}=\circledast_{\omega} \circ d_{A_{\omega}}(\cdot)+\kappa_{1} *(\cdot) \\
+\delta_{2, b}^{\omega}=F_{A_{\omega}} \wedge \circledast(\cdot)-\kappa_{1} * d_{B_{\omega}}(\cdot)
+\end{gathered}
+$$
+
+Putting this Bosonic piece together with the Spinor deformations gives a diagram that looks something like:
+
+**Note:** This diagram is carried over from an older version and may contain some inconsistencies until it is stabilized. Caveat Emptor.
+
+# 11 Observed Field Content
+
+One of the features that arises when doing away with the primary nature of space-time and replacing a single metric space with a tension between two separate but related spaces linked by metrics, is that we find ourselves in the novel situation where we must relate fields that are native to different spaces. The principal means of doing this is via the pullback operation. To interpret differential equations governing fields native to $Y$ back on $X$ means pulling back not only bundles but so-called Jets or Sprays of sections on $Y$. But, to begin with, we can simply analyze the zeroth order of the activity on $Y$ by pulling back bundles via the $2^{n}$ operation derived from making a metric observation of $Y$ by $X$.
+
+To begin with, let us detach from the spaces $T_{x} X$ to general metric vector spaces $W$ in even dimensions to say a few words about direct sums and tensor products of defining and spin representations for $\operatorname{Spin}(W)$.
+
+
+# 11.1 Fermionic Quantum Numbers as Reply to Rabi's question.
+
+there is a simple rule for tensor products of defining representations and spinors whereby the tensor product
+
+$$
+W \otimes \mathscr{S}_{W}=\mathscr{S}_{W} \oplus \mathbb{R}_{W}
+$$
+
+breaks into a piece representing the action of gamma matrices as spinor endomorphisms and a second piece giving the pure Rarita-Schwinger spin $3 / 2$ representation corresponding to the sum of the highest weights of the factors.
+
+We note further, that spinor representations carry the property of the exponential in that they take in direct sums as input and return products of the spinors of the summands as output.
+
+$$
+W=U \oplus V \quad \rightsquigarrow \quad \mathcal{S}(W)=\mathcal{S}(U \oplus V)=\mathcal{S}(U) \otimes \mathcal{S}(V)
+$$
+
+Both of these are likely to be well known to physicists. Somewhat less familiar is that the Rarita-Schwinger representation has slightly odd behavior when applied to direct sums of vector spaces.

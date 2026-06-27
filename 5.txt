@@ -1,0 +1,199 @@
+
+### 5.5 Fermions and SUSY
+
+Super-symmetry has a curious status within both Mathematics and Physics. It is both incredibly natural by some measures, as well as being rather artificial by others. It is not a true symmetry, its 'integrals' are not real integrals, and its 'dimensions' are not true dimensions. Nevertheless, the dictionary between Bosonic and Fermionic constructions is astounding (at least to us). This is interpreted by the author as consistent with a signature of a problem where Super-symmetry is likely very important but somehow thoroughly misinstantiated by its often fanatical proponents compensating for its failure to materialize in any physical experiment.
+
+
+
+
+
+# 8 The Family of Shiab Operators
+
+With this machinery notated and established, we can turn to the second major advantage of working in the Meta-Riemannian paradigm.
+
+![Figure 5: Ship In a Bottle Construction.](attachment:Ship_In_a_Bottle.png)
+
+In essence, gauge theory and relativity have been disconnected because of the incompatibility of contraction and gauge covariance of terms within the action. The former typically contracts between a differential form and some other bundle associated to the tangent bundle where the differential form is valued, while gauge rotation typically acts on the latter bundle without touching the forms.
+
+The 'Ship in a Bottle' construction attempts to get around this difficulty. By incorporating the gauge group into the contraction operator, the gauge group rotates only the bundle valued portion of a collection contracting forms $\left\{\Phi_{i}\right\}$ in which these special invariant differential forms are valued in such a way that it exactly compensates for the a symmetry of treatment in the form being contracted. Suppose for example that $\eta$ is a gauge covariant ad-valued differential form. Then a Shiab contraction operator might look like:
+
+$$
+\mathscr{C}_{x} \eta=*^{n} i^{\frac{1 \pm 1}{2}}\left[\left(\varepsilon^{-1} \Phi_{r} \varepsilon\right) \wedge *^{m} \eta\right]_{ \pm}
+$$
+
+or perhaps a sum of such terms, where typically $\Phi_{r}$ is a normed Lie Algebra Valued $r$-form valued in an invariant subspace of the structure group of the tangent bundle and the bracket is either a commutator or an anti-commutator with a factor of i out front in the case of the latter.
+
+There is most likely a byzantine taxonomy of such objects along the lines of what Reese Harvey detailed for the Clifford Algebras in his book on Spinors and Calibrations.
+
+The author is no longer in a position to go chasing after the complete picture and simply details some of the available tools for customizing such operators.
+
+### 8.1 Pure Trace Elements
+
+As vector spaces over the real numbers,
+
+$$
+\Lambda^{*}\left(T^{*} X\right)=\mathrm{Cl}\left(T^{*} X\right)
+$$
+
+but where the algebraic structures are somewhat different. In our case, when $Y$ inherits a $(7,7)$ metric, we have an equivalence at the level of vector spaces:
+
+$$
+\vartheta: \Lambda^{*}\left(T^{*} Y\right) \longrightarrow \mathrm{Cl}\left(T^{*} X\right)=\mathbb{R}(128)
+$$
+
+If $\mathrm{Cl}_{\mathbb{R}}\left(T^{*} Y\right)$ is included in its own own complexification it can be seen within the matrix algebras
+
+which commute on:
+
+$$
+\mathfrak{s o}(64,64) "=" \underbrace{\left(\Lambda^{2} \oplus \Lambda^{6} \oplus \Lambda^{10} \oplus \Lambda^{14}\right)}_{\mathscr{G}_{4} \otimes \mathscr{G}_{R}=\mathscr{G}_{L} \otimes \mathscr{G}_{4}^{*}=\mathscr{G}_{R}^{*} \otimes \mathscr{G}_{R}} \underbrace{\left(\Lambda^{1} \oplus \Lambda^{5} \oplus \Lambda^{9} \oplus \Lambda^{13}\right)}_{\Lambda^{2}\left(\mathscr{G}_{L}\right) \oplus \Lambda^{3}\left(\mathscr{G}_{R}\right)} \subset \mathrm{Cl}_{\mathbb{R}(7,7)}
+$$
+
+What differs instead is what happens on
+$\mathfrak{u}(64,64) / \mathfrak{s o}(64,64) "=" k_{0} \Lambda^{0} \oplus k_{3} \Lambda^{3} \oplus k_{4} \Lambda^{4} \oplus k_{7} \Lambda^{7} \oplus k_{8} \Lambda^{8} \oplus k_{11} \Lambda^{11} \oplus k_{12} \Lambda^{12}$
+which must be multiplied by various factors of $i$ inside the complexification.
+
+**Definition 8.1** Let $\left\{\Phi_{i}\right\}_{i=0}^{14}$ be a basis for the invariant subspaces of
+
+$$
+\left[\Lambda^{i}\left(\mathbb{R}^{7,7}\right) \otimes \mathfrak{u}(64,64)\right]_{\text {Spin }(7,7)}
+$$
+
+seen as a $\operatorname{Spin}(7,7)$ representation.
+
+# 8.2 Thoughts on Operator Choice
+
+The particulars of the Shiab operators are workmanlike and not of much interest. The interesting aspect of them, is that they all essentially look like contracting over indices in the fashion familiar from Riemannian tensor geometry, but with some aspect of conjugation by the gauge group element $\varepsilon \in \mathcal{H} \subset \mathcal{G}$ living inside the inhomogeneous gauge group $\mathcal{G}$ as a non-linear sigma-field of sorts.
+
+The author remembers choosing them years ago via representation theory techniques involving highest weight representations rather than by the more indicial methods presented here with invariant elements $\Phi_{i}$. The advantage was that the Bianchi identity was able to pick the best and most appropriate operator in different circumstances. Unfortunately, the author is no longer conversant in that language and has been unable to locate the notes from decades ago that originally picked out the operator of choice to play the role of the Swerve here $\circledast$. The author either hopes to find the original calculations or to get back to the point where he can reconstruct this argument based on using the Bianchi identity to guarantee gauge perpendicularity and/or use the Bianchi identity to guarantee automatic solution of a differential equation in the curvature.
+
+**Note:** A brief discussion of additional tools for Shiab construction has been moved to a short technical appendix.
+
+# 9 Lagrangians
+
+There are multiple considerations in putting forward Lagrangians in this context. In particular there are issues of redundant equations, Bianchi Identities, cohomological considerations for deformation complexes, so-called Supersymmetry, agreement with prior physical equations, and the issue of Dirac Pairs where one set of more restrictive (usually first order) equations guarantees the solution of the equations of a different related (usually second order) Lagrangians.
+
+### 9.1 The 1st Order Bosonic Sector
+
+The purely Bosonic portion of the action is a real valued function:
+
+$$
+\mathcal{I}_{1}^{\mathrm{B}}: \mathcal{G} \times \mathcal{M E T}\left(X^{1,3}\right): \longrightarrow \mathbb{R}
+$$
+
+While there are other possibilities to explore for the choice of the Shiab operator, Let
+
+$$
+\mathscr{C}_{\varepsilon}: \Omega^{2}\left(Y^{7,7}, \mathrm{ad}\right) \longrightarrow \Omega^{d-1}\left(Y^{7,7}, \mathrm{ad}\right)
+$$
+
+we will begin with one(^{10}) which makes the parallel to Einstein’s contraction of the full Riemannian curvature explicit:
+
+\odot_{\epsilon} \xi = \underbrace{\left[ (\epsilon^{-1} \Phi^1 \epsilon) \wedge (* \xi) \right]}_{\text{Ricci Like}} - \frac{*}{2} \underbrace{\left[ (\epsilon^{-1} \Phi^1 \epsilon) \wedge * \left[ (\epsilon^{-1} \Phi^2 \epsilon) \wedge (* \xi) \right] \right]}_{g_{\mu \nu}\text{- like.}} \underbrace{\text{Ricci Scalar Like}}
+
+
+for a gauge covariant ad-valued 2-form ( \xi \in \Omega^2(Y, \text{ad}) ).
+
+Here, as in Einstein’s case, the Weyl curvature tensor is annihilated by the contraction operator above so the operator preserves and mixes only the analogues of the Ricci and Scalar curvature components.
+
+
+Ehresmannian curvature tensors via an action $\mathcal{I}_{1}^{\mathrm{B}}$ which for only the Bosonic fields of integral spin $(\varepsilon, \varpi$ on $Y$ and $\mathfrak{I}$ on $X$ ) looks like:
+
+$$
+\mathcal{I}_{1}^{\mathrm{B}}\left(\omega_{Y}, \mathfrak{I}_{X}\right)=\mathcal{I}_{1}^{\mathrm{B}}\left(\left(\varepsilon_{Y}, \varpi_{Y}\right), \mathfrak{I}_{X}\right)
+$$
+
+$$
+=\int_{Y} \operatorname{Tr}\left(\left(\varpi-\varepsilon^{-1} d_{0} \varepsilon\right) \wedge *\underbrace{\left[\left(\varepsilon^{-1} \Phi^{1} \varepsilon\right) \wedge(*(\cdot))\right]}_{\text {Ricci Like }}-\frac{*}{2}\left[\left(\varepsilon^{-1} \Phi^{1} \varepsilon\right) \wedge *\underbrace{\left[\left(\varepsilon^{-1} \Phi^{2} \varepsilon\right) \wedge(*(\cdot))\right]}_{\text {Ricci Scalar Like }}\right.\right.
+$$
+
+$$
+\left.\left(\varepsilon^{-1} \widetilde{R_{i j \sigma}^{\theta} \varepsilon}+\frac{1}{2}\left(d_{0}+\varepsilon^{-1} d_{0} \varepsilon\right)\left(\varpi-\varepsilon^{-1} d_{0} \varepsilon\right)+\frac{1}{3}\left[\varpi-\varepsilon^{-1} d_{0} \varepsilon, \varpi-\varepsilon^{-1} d_{0} \varepsilon\right]\right)\right)
+$$
+
+$$
++\kappa_{1} \int_{Y} \operatorname{Tr}\left(\left(\varpi-\varepsilon^{-1} d_{0} \varepsilon\right) \wedge *\left(\varpi-\varepsilon^{-1} d_{0} \varepsilon\right)\right)
+$$
+
+where:
+
+1. $\widetilde{R_{i j \sigma}^{\theta}}$ is the Spinor bundle's Riemannian curvature induced from the Levi-Civita connection.
+2. $T_{\omega}=\varpi-\varepsilon^{-1} d_{0} \varepsilon \in \Omega^{1}(Y, \mathrm{ad})$ is the augmented torsion tensor.
+3. The Shiab Operator $\mathscr{\circ}_{\omega}$ on an ad-valued 2-form $\xi \in \Omega^{2}(Y, \mathrm{ad})$ is given in accordance with the Einsteinian contraction
+
+$$
+\mathscr{\circ}_{\varepsilon} \xi=\underbrace{\left[\left(\varepsilon^{-1} \Phi^{1} \varepsilon\right) \wedge(* \xi)\right]}_{\text {Ricci Like }}-\frac{*}{2}\left[\left(\varepsilon^{-1} \Phi^{1} \varepsilon\right) \wedge *\underbrace{\left[\left(\varepsilon^{-1} \Phi^{2} \varepsilon\right) \wedge(* \xi)\right]}_{\text {Ricci Scalar Like }}\right.
+$$
+
+4. The $B_{\omega}$ connection is the gauge rotation of the Levi-Civita Spin Connection: $B_{\omega}=\nabla^{0}+\varepsilon^{-1} d_{0} \varepsilon$
+
+By the calculus of variations we obtain Euler-Lagrange Equations of the form:
+
+$$
+\left.d \mathcal{I}_{1}^{B}(\mathfrak{I}, \omega)\right|_{Y^{14}}=\left(\begin{array}{c}
+\Upsilon_{\omega} \\
+\oplus \\
+\Xi_{\omega}
+\end{array}\right) \in \begin{gathered}
+\Omega^{d-1}(\mathrm{ad}) \\
+\oplus \\
+\Omega^{d}(\mathrm{ad})
+\end{gathered}
+$$
+
+where generally
+
+$$
+\Xi=\mathfrak{D}_{\omega} \Upsilon_{\omega}
+$$
+
+for some operator differential $\mathfrak{D}_{\omega}$ so that the vanishing of $\Xi_{\omega}=0$ need not be considered if $\Upsilon_{\omega}=0$ by the redundant nature of the second equation.
+
+And by gathering up terms we can express them in a fashion that is closer to the more familiar equations of General Relativity. Thus we have:
+
+$$
+\begin{aligned}
+& \frac{\partial \mathcal{I}_{1}^{\mathrm{B}}\left(\left(\varepsilon_{Y}, \varpi_{Y}+s \alpha\right), \boldsymbol{\lambda}_{X}\right)}{\partial s}=<\alpha, \mathscr{C}_{\omega} F_{A_{\omega}}+* \kappa_{1} T_{\omega}>=<\alpha, \Upsilon_{\omega}^{B}> \\
+& \text { Swerved Curvature } \\
+& =\text { Swervature }=\mathcal{S}_{\omega}
+\end{aligned}=-\underset{\substack{\text { Displaced Torsion } \\
+\text { Displasion }=\mathcal{T}_{\omega}}}{\mathcal{N}_{\omega}}
+$$
+
+So that if one wanted to locate and recover from a GU equation:
+
+$$
+\Upsilon_{\omega}=\mathcal{S}_{\omega}-\mathcal{T}_{\omega}=0
+$$
+
+the more familiar terms of the Einstein Field Equations for Gravity, it would generate an annotated equation along the lines of:
+
+### 9.2 Second Order Euler-Lagrange Equations
+
+One of the Claims of Geometric Unity is that we have been unsuccessful in Unifying the four basic equations for Gravity, Non-Gravitational force, Matter and Higgs phenomena because they belong to a Dirac Pair. That is, we believe that the Einstein and Dirac equations belong to a unifying equation which is in the sense of Dirac something of a square root of a different equation or Lagrangian related to the Yang-Mills-Maxwell equation and the Higgs version of the Klein-Gordon equation. Thus we should seek to unify our equations and Lagrangians much the way Dirac unified first and second order equations with his masterstroke. To this end we focus on second Lagrangian of 2nd order:
+
+
+\[
+\mathcal{I}_2^B((\varepsilon_Y, \varpi_Y), J_X) = ||\Upsilon_\omega^B||^2 \tag{9.11}
+\]
+
+\[
+\frac{\partial \mathcal{I}_2^B((\varepsilon_Y, \varpi_Y + s\alpha), J_X)}{\partial s} = <\alpha, 2(d_{A_\omega}^* \circledast_\omega + \kappa_1 \text{Id}) \Upsilon_\omega^B> \tag{9.12}
+\]
+
+\[
+= 2 < \alpha, \underbrace{d_{A_\omega}^* \circledast_\omega \circledast_\omega F_{A_\omega}}_{\text{New 'Yang-Mills' Term}} + \kappa_1 d_{A_\omega}^* \circledast_\omega T_\omega + \kappa_1 * \circledast_\omega F_{A_\omega} + \kappa_1^2 T_\omega > \tag{9.13}
+\]
+
+yielding:
+
+\[
+D_\omega^* F_{A_\omega} = J_\omega^B \tag{9.14} (Yang-Mills-Maxwell like equation with Bosonic source.)
+\]
+
+more effeciently as:
+
+\[
+D_\omega^* \Upsilon_\omega = 0 \tag{9.15}
+\]
+
